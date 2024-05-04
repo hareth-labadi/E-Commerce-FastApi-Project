@@ -21,14 +21,14 @@ Ecommerce Website
 ```
 uvicorn app.main:app --reload 
 ```
-
+<!-- 
 #### Fill db
 
 ```angular2html
 INSERT INTO public.category (id, name, slug, is_active, parent_id) VALUES (1, 'Apple', 'apple', true, null);
-INSERT INTO public.category (id, name, slug, is_active, parent_id) VALUES (2, 'Смартфоны', 'smartfony', true, 1);
-INSERT INTO public.category (id, name, slug, is_active, parent_id) VALUES (3, 'Ноутбуки', 'noutbuki', true, 1);
-INSERT INTO public.category (id, name, slug, is_active, parent_id) VALUES (4, 'Планшеты', 'planshety', true, 1);
+INSERT INTO public.category (id, name, slug, is_active, parent_id) VALUES (2, 'Acer', 'acer', true, 1);
+INSERT INTO public.category (id, name, slug, is_active, parent_id) VALUES (3, 'Dell', 'dell', true, 1);
+INSERT INTO public.category (id, name, slug, is_active, parent_id) VALUES (4, 'Lenovo', 'lenovo', true, 1);
 INSERT INTO public.category (id, name, slug, is_active, parent_id) VALUES (5, 'Asus', 'asus', true, null);
 ```
 
@@ -41,7 +41,7 @@ INSERT INTO public.product (id, name, slug, description, price, image_url, stock
 INSERT INTO public.product (id, name, slug, description, price, image_url, stock, category_id, rating, is_active) VALUES (6, 'MacBook Pro', 'macbook-pro', 'string', 140000, 'string', 11, 3, 0, true);
 INSERT INTO public.product (id, name, slug, description, price, image_url, stock, category_id, rating, is_active) VALUES (7, 'iPad (9th Gen)', 'ipad-9th-gen', 'string', 35000, 'string', 30, 4, 0, true);
 INSERT INTO public.product (id, name, slug, description, price, image_url, stock, category_id, rating, is_active) VALUES (8, 'iPad (10th Gen)', 'ipad-10th-gen', 'string', 52000, 'string', 20, 4, 0, true);
-```
+```-->
 
 ---
 
