@@ -2,6 +2,6 @@
 .venv
 /venv
 /env
-./env_vars
+env_vars
 app/migration
 alembic.ini
